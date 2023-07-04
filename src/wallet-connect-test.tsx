@@ -8,7 +8,9 @@ export function WalletConnectTest() {
   const { chain } = useNetwork();
 
   return (
-    <div>
+    <div className="container" style={{ margin: "5rem auto" }}>
+      <h1 className="text-center">Wagmi WalletConnect Error</h1>
+
       <div className="card" style={{ padding: "2rem" }}>
         {isConnected ? (
           <div>
